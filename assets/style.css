@@ -3,6 +3,8 @@
 body {
     font-family: 'Poppins' !important;
     background-color: #17191a !important;
+    width: 100%;
+    height: 100%;
 }
 .active::after {
     content: "";
