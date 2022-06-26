@@ -238,7 +238,9 @@ hr {
     width: 40%;
 
 }
-.skills 
+.skills_right .title_column {
+    text-align: end;
+}
 .skills_right .column {
     /* float: right; */
 }
@@ -257,9 +259,9 @@ hr {
 
 }
 .ninety .front {
-    padding: 8px;
+    padding: 4px;
     width: 90%;
-    border-radius: 10px 0px 0px 10px;
+    /* border-radius: 10px 0px 0px 10px; */
     background-color: #dc3545!important;
     border: none;
 }
@@ -267,13 +269,37 @@ hr {
     
     background-color: #343a40;
     width: 10%;
-    padding: 8px;
+    padding: 4px;
     border-radius: 0px 10px 10px 0px;
  
     border: none;
 }
+/* 95 */
+.ninety_five .front {
+    padding: 1px;
+    width: 95%;
+    /* border-radius: 10px 0px 0px 10px; */
+    background-color: #17a2b8!important;
+    border: none;
+}
+.ninety_five .background {
+    background-color: #343a40;
+    width: 5%;
+    padding: 1px;
+    border-radius: 0px 10px 10px 0px;
+ 
+    border: none;
+}
+
 .name_skill {
  display: flex;
+}
+.name_left {
+ font-size: 16px;
+ color: #FFFFFFE6;
+}
+.name_right {
+    color: #6c757d!important;
 }
 .name_left {
     width: 100%;
