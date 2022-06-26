@@ -229,16 +229,16 @@ hr {
 
 
 /* Skills Page */
-.skills .center .about h1 {
+.center .about h1 {
     font-size: 30px;
     color: white;
 }
-.skills .center .text-center p {
+.center .text-center p {
     color: #FFFFFFE6;
     text-align: justify;
     font-size: 16px;
 }
-.skills .center .love .programming-skills .skill-import .tag h1 {
+.center .programming-skills .skill-import .tag h1 {
     color: #FFFFFFE6;
     font-size: 32px;
 }
@@ -263,9 +263,7 @@ hr {
 .name {
     width: 90%;
 }
-.programming-skills button {
-  
-}
+
 .css_html {
 display: flex;
 }
