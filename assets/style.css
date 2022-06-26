@@ -248,6 +248,7 @@ hr {
 }
 .skill-import {
     width: 50%;
+    padding: 10px;
 }
 .name-skills > h2 {
     font-size: 30px;
@@ -275,6 +276,9 @@ display: flex;
  
     border: none;
 }
+.programming-skills {
+    display: flex;
+}
 .css_html .frente {
     padding: 10px;
     width: 90%;
@@ -282,10 +286,29 @@ display: flex;
     background-color: #dc3545!important;
     border: none;
 }
+/* 95% */
+
+.frente_95 {
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #dc3545!important;
+    border: none;
+}
+.fundo_95 {
+    background-color: #343a40;
+    width: 5%;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
 @media only screen and (max-width: 768px) {
     .skill-import {
         width: 90%;
         margin: auto;
+    }
+    .programming-skills {
+        display: block;
     }
 }
 /* Skills End -- */
