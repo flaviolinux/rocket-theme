@@ -314,3 +314,11 @@ color: #FFFFFFE6;
 }
 
 
+@media only screen and (max-width: 768px) {
+    .skills_left {
+        width: 100%;
+    }
+    .skills_right {
+        width: 100%!important;
+    }
+}
