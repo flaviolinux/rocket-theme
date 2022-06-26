@@ -225,3 +225,66 @@ hr {
 }
 
 /* Blog -- */
+
+
+
+/* Skills Page */
+.skills .center .about h1 {
+    font-size: 30px;
+    color: white;
+}
+.skills .center .text-center p {
+    color: #FFFFFFE6;
+    text-align: justify;
+    font-size: 16px;
+}
+.skills .center .love .programming-skills .skill-import .tag h1 {
+    color: #FFFFFFE6;
+    font-size: 32px;
+}
+
+.name-skills {
+    display: flex;
+}
+.skill-import {
+    width: 50%;
+}
+.name-skills > h2 {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+.info {
+   display: flex;
+    font-size: 30px;
+    color: white;
+}
+.name {
+    width: 90%;
+}
+.programming-skills button {
+  
+}
+.css_html {
+display: flex;
+}
+.css_html .fundo {
+    background-color: #343a40;
+    width: 10%;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+ 
+    border: none;
+}
+.css_html .frente {
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #dc3545!important;
+    border: none;
+}
+.info h2 {
+
+}
+/* Skills End -- */
