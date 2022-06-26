@@ -224,51 +224,45 @@ hr {
     }
 }
 
-/* Blog -- */
-
-
-
 /* Skills */
-.center .about h1 {
-    font-size: 30px;
-    color: white;
-}
-.center .text-center p {
-    color: #FFFFFFE6;
-    text-align: justify;
-    font-size: 16px;
-}
-.center .programming-skills .skill-import .tag h1 {
-    color: #FFFFFFE6;
-    font-size: 32px;
-}
 
-.name-skills {
+.display {
     display: flex;
-}
-.skill-import {
-    width: 50%;
-    padding: 10px;
-}
-.name-skills > h2 {
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    text-align: left;
-}
-.info {
-   display: flex;
-    font-size: 30px;
-    color: white;
-}
-.name {
-    width: 90%;
+    width: 100%;
 }
 
-.css_html {
-display: flex;
+.skills_left {
+width: 50%;
 }
-.css_html .fundo {
+.skills_right {
+width: 50%;
+}
+.skills_right .column {
+    float: right;
+}
+
+.info {
+    display: inline-flex;
+}
+.title_column {
+    font-size: 30px;
+    color: white;
+}
+.porcents {
+    float: right;
+}
+.column {
+
+}
+.ninety .front {
+    padding: 8px;
+    width: 90%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #dc3545!important;
+    border: none;
+}
+.ninety .background {
+    
     background-color: #343a40;
     width: 10%;
     padding: 8px;
@@ -276,39 +270,19 @@ display: flex;
  
     border: none;
 }
-.programming-skills {
-    display: flex;
+.name_skill {
+ display: flex;
 }
-.css_html .frente {
-    padding: 8px;
-    width: 90%;
-    border-radius: 10px 0px 0px 10px;
-    background-color: #dc3545!important;
-    border: none;
+.name_left {
+    width: 100%;
 }
-/* 95% */
+.name_skill h1 {
+font-size: 16px;
+color: #FFFFFFE6;
+}
+.name_skill strong {
+    font-size: 16px;
+color: #FFFFFFE6;
+}
 
-.frente_95 {
-   
-    width: 90%;
-    border-radius: 10px 0px 0px 10px;
-    background-color: #007bff!important;
-    border: none;
-}
-.fundo_95 {
-    background-color: #343a40;
-    width: 5%;
-    padding: 4px;
-    border-radius: 0px 10px 10px 0px;
-    border: none;
-}
-@media only screen and (max-width: 768px) {
-    .skill-import {
-        width: 90%;
-        margin: auto;
-    }
-    .programming-skills {
-        display: block;
-    }
-}
-/* Skills End -- */
+
