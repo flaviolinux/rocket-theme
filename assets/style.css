@@ -225,20 +225,22 @@ hr {
 }
 
 /* Skills */
-
 .display {
-    display: flex;
-    width: 100%;
+   height: 700px;
 }
 
 .skills_left {
-width: 50%;
+    width: 40%;
+    float: left;
 }
 .skills_right {
-width: 50%;
+ float: right;
+    width: 40%;
+
 }
+.skills 
 .skills_right .column {
-    float: right;
+    /* float: right; */
 }
 
 .info {
