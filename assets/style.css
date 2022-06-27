@@ -317,6 +317,37 @@ color: #FFFFFFE6;
     background-color: #7c12f9;
 }
 
+.ninetyfive .front {
+    padding: 1px;
+    width: 95%;
+    /* border-radius: 10px 0px 0px 10px; */
+    background-color: #17a2b8!important;
+    border: none;
+}
+.ninetyfive .background {
+    
+    background-color: #343a40;
+    width: 5%;
+    padding: 1px;
+    border-radius: 0px 10px 10px 0px;
+ 
+    border: none;
+}
+.eighty .front {
+    padding: 1px;
+    width: 70%;
+    /* border-radius: 10px 0px 0px 10px; */
+    background-color: #17a2b8!important;
+    border: none;
+}
+.eighty .background {
+    background-color: #343a40;
+    width: 30%;
+    padding: 1px;
+    border-radius: 0px 10px 10px 0px;
+ 
+    border: none;
+}
 @media only screen and (max-width: 768px) {
     .skills_left {
         width: 100%;
