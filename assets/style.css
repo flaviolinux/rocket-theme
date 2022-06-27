@@ -225,6 +225,13 @@ hr {
 }
 
 /* Skills */
+.center {
+    color: #FFFFFFE6;
+}
+.center .text-center p {
+ font-size: 16px;
+ text-align: justify;
+}
 .display {
    height: 700px;
 }
