@@ -251,12 +251,13 @@ hr {
 .title_column {
     font-size: 30px;
     color: white;
+    height: 60px;
 }
 .porcents {
     float: right;
 }
 .column {
-
+height: 50px;
 }
 .ninety .front {
     padding: 4px;
@@ -312,7 +313,9 @@ color: #FFFFFFE6;
     font-size: 16px;
 color: #FFFFFFE6;
 }
-
+.front .bootstrap {
+    background-color: #7c12f9;
+}
 
 @media only screen and (max-width: 768px) {
     .skills_left {
