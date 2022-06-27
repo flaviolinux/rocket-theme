@@ -101,7 +101,7 @@ strong {
 }
 
 
-
+/* Blog */
 .card {
 
     background-color: #fff0 !important;
@@ -118,7 +118,14 @@ strong {
     border-radius: 10px;
     /* padding: 10px; */
 }
-
+.contend .text h1 {
+ color: #FFFFFFE6;
+ font-size: 20px;
+}
+.contend p {
+    font-size: 16px;
+    color: #FFFFFFE6;
+}
 .contend img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
