@@ -269,7 +269,7 @@ height: 50px;
 .ninety .front {
     padding: 4px;
     width: 90%;
-    /* border-radius: 10px 0px 0px 10px; */
+    border-radius: 10px 0px 0px 10px; 
     background-color: #dc3545!important;
     border: none;
 }
@@ -286,7 +286,7 @@ height: 50px;
 .ninety_five .front {
     padding: 1px;
     width: 95%;
-    /* border-radius: 10px 0px 0px 10px; */
+    border-radius: 10px 0px 0px 10px; 
     background-color: #17a2b8!important;
     border: none;
 }
@@ -327,7 +327,7 @@ color: #FFFFFFE6;
 .ninetyfive .front {
     padding: 1px;
     width: 95%;
-    /* border-radius: 10px 0px 0px 10px; */
+    border-radius: 10px 0px 0px 10px; 
     background-color: #17a2b8!important;
     border: none;
 }
@@ -343,7 +343,7 @@ color: #FFFFFFE6;
 .eighty .front {
     padding: 1px;
     width: 70%;
-    /* border-radius: 10px 0px 0px 10px; */
+    border-radius: 10px 0px 0px 10px; 
     background-color: #17a2b8!important;
     border: none;
 }
