@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-html,body {
+html,
+body {
     font-family: 'Poppins' !important;
     background-color: #17191a !important;
     width: 100%;
     height: 1200px;
 }
+
 .active::after {
     content: "";
     display: block;
     height: 0.15em;
     background: #007bff;
 }
+
 .container {
     width: 90%;
-    
+
 }
 
 .container-fluid {
@@ -97,7 +100,7 @@ strong {
     .text-themed {
         color: rgba(255, 255, 255, 0.9);
     }
-   
+
 }
 
 
@@ -118,14 +121,17 @@ strong {
     border-radius: 10px;
     /* padding: 10px; */
 }
+
 .contend .text h1 {
- color: #FFFFFFE6;
- font-size: 20px;
+    color: #FFFFFFE6;
+    font-size: 20px;
 }
+
 .contend p {
     font-size: 16px;
     color: #FFFFFFE6;
 }
+
 .contend img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
@@ -158,9 +164,9 @@ strong {
 
 .contend:hover {
     opacity: 80%;
-  
-    
-    
+
+
+
 }
 
 .class-btn {
@@ -226,6 +232,7 @@ hr {
     .text-articles {
         width: 90%;
     }
+
     .contend {
         width: 100%;
     }
@@ -235,26 +242,31 @@ hr {
 .center {
     color: #FFFFFFE6;
 }
+
 .center .text-center p {
- font-size: 16px;
- text-align: justify;
+    font-size: 16px;
+    text-align: justify;
 }
+
 .display {
-   height: 700px;
+    height: 700px;
 }
 
 .skills_left {
     width: 40%;
     float: left;
 }
+
 .skills_right {
- float: right;
+    float: right;
     width: 40%;
 
 }
+
 .skills_right .title_column {
     text-align: end;
 }
+
 .skills_right .column {
     /* float: right; */
 }
@@ -262,71 +274,84 @@ hr {
 .info {
     display: inline-flex;
 }
+
 .title_column {
     font-size: 30px;
     color: white;
     height: 60px;
 }
+
 .porcents {
     float: right;
 }
+
 .column {
-height: 50px;
+    height: 50px;
 }
+
 .ninety .front {
     padding: 4px;
     width: 90%;
-    border-radius: 10px 0px 0px 10px; 
-    background-color: #dc3545!important;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #dc3545 !important;
     border: none;
 }
+
 .ninety .background {
-    
+
     background-color: #343a40;
     width: 10%;
     padding: 4px;
     border-radius: 0px 10px 10px 0px;
- 
+
     border: none;
 }
+
 /* 95 */
 .ninety_five .front {
     padding: 1px;
     width: 95%;
-    border-radius: 10px 0px 0px 10px; 
-    background-color: #17a2b8!important;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #17a2b8 !important;
     border: none;
 }
+
 .ninety_five .background {
     background-color: #343a40;
     width: 5%;
     padding: 1px;
     border-radius: 0px 10px 10px 0px;
- 
+
     border: none;
 }
 
 .name_skill {
- display: flex;
+    display: flex;
 }
+
 .name_left {
- font-size: 16px;
- color: #FFFFFFE6;
+    font-size: 16px;
+    color: #FFFFFFE6;
 }
+
 .name_right {
-    color: #6c757d!important;
+    color: #6c757d !important;
 }
+
 .name_left {
     width: 100%;
 }
+
 .name_skill h1 {
-font-size: 16px;
-color: #FFFFFFE6;
+    font-size: 16px;
+    color: #FFFFFFE6;
 }
+
 .name_skill strong {
     font-size: 16px;
-color: #FFFFFFE6;
+    color: #FFFFFFE6;
 }
+
 .front .bootstrap {
     background-color: #7c12f9;
 }
@@ -334,39 +359,44 @@ color: #FFFFFFE6;
 .ninetyfive .front {
     padding: 1px;
     width: 95%;
-    border-radius: 10px 0px 0px 10px; 
-    background-color: #17a2b8!important;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #17a2b8 !important;
     border: none;
 }
+
 .ninetyfive .background {
-    
+
     background-color: #343a40;
     width: 5%;
     padding: 1px;
     border-radius: 0px 10px 10px 0px;
- 
+
     border: none;
 }
+
 .eighty .front {
     padding: 1px;
     width: 70%;
-    border-radius: 10px 0px 0px 10px; 
-    background-color: #17a2b8!important;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #17a2b8 !important;
     border: none;
 }
+
 .eighty .background {
     background-color: #343a40;
     width: 30%;
     padding: 1px;
     border-radius: 0px 10px 10px 0px;
- 
+
     border: none;
 }
+
 @media only screen and (max-width: 768px) {
     .skills_left {
         width: 100%;
     }
+
     .skills_right {
-        width: 100%!important;
+        width: 100% !important;
     }
 }
