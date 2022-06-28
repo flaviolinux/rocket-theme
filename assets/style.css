@@ -216,7 +216,27 @@ strong {
 hr {
     border-top: 1px solid #545b62 !important;
 }
-
+.linux {
+    width: 30%;
+    height: 80px;
+    border-radius: 5px;
+    background: #282a36;
+}
+.linux .text {
+    
+        color: #60cce2;
+    }
+.circles {
+display: flex;
+}
+.ball {
+    background: #ff5f56;
+    padding: 7px;
+    width: 0%;
+    border-radius: 100%;
+    margin: 5px;
+    border: none; 
+}
 
 @media only screen and (max-width: 768px) {
     .articles .text-articles .title h1 {
