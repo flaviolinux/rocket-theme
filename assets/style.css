@@ -418,14 +418,15 @@ background-color: #343a40;
 }
 .ball-time-line {
     position: absolute;
-    margin-left: -80px;
+    margin-left: -70px;
+    margin-top: 10px;
 
 }
 
 .one {
-    padding: 15px;
+    padding: 5px;
     background: #007bff;
-    width: 50px;
+   
     border-radius: 100%;
 
 }
@@ -454,5 +455,17 @@ color: #FFFFFFE6;
 
     .skills_right {
         width: 100% !important;
+    }
+    .display {
+        height: 700px;
+    }
+    .time-line .col {
+        padding: 20px;
+    }
+    .ball-time-line {
+        
+        margin-left: -40px;
+        margin-top: 10px;
+    
     }
 }
