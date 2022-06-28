@@ -250,6 +250,9 @@ display: flex;
     .contend {
         width: 100%;
     }
+    .linux {
+        width: 100%;
+    }
 }
 
 /* Skills */
