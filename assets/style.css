@@ -236,6 +236,12 @@ hr {
 .center {
     color: #FFFFFFE6;
 }
+.center .about h1 {
+    font-weight: bolder;
+}
+.center .text-center strong {
+    text-decoration: none;
+}
 
 .center .text-center p {
     font-size: 16px;
