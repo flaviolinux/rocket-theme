@@ -7,13 +7,16 @@ body {
     width: 100%;
     height: 1200px;
 }
-.navbar-brand h5 > b > i {
+
+.navbar-brand h5>b>i {
     font-size: 60px;
 }
-.navbar-brand h5 > b > i:hover {
-    
+
+.navbar-brand h5>b>i:hover {
+
     text-shadow: 0px 0px 8px #f8f9fa;
 }
+
 .active::after {
     content: "";
     display: block;
@@ -106,9 +109,11 @@ strong {
     .text-themed {
         color: rgba(255, 255, 255, 0.9);
     }
-    .navbar-brand h5 > b > i {
+
+    .navbar-brand h5>b>i {
         font-size: 60px;
     }
+
     .nav-link {
         text-align: center;
         display: block;
@@ -133,7 +138,7 @@ strong {
     border: 1px slid;
     border: 1px solid white;
     border-radius: 10px;
-   
+
 }
 
 .contend .text h1 {
@@ -231,26 +236,30 @@ strong {
 hr {
     border-top: 1px solid #545b62 !important;
 }
+
 .linux {
     width: 30%;
     height: 80px;
     border-radius: 5px;
     background: #282a36;
 }
+
 .linux .text {
-    
-        color: #60cce2;
-    }
-.circles {
-display: flex;
+
+    color: #60cce2;
 }
+
+.circles {
+    display: flex;
+}
+
 .ball {
     background: #ff5f56;
     padding: 7px;
     width: 0%;
     border-radius: 100%;
     margin: 5px;
-    border: none; 
+    border: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -265,6 +274,7 @@ display: flex;
     .contend {
         width: 100%;
     }
+
     .linux {
         width: 100%;
     }
@@ -274,9 +284,11 @@ display: flex;
 .center {
     color: #FFFFFFE6;
 }
+
 .center .about h1 {
     font-weight: bolder;
 }
+
 .center .text-center strong {
     text-decoration: none;
 }
@@ -406,16 +418,20 @@ display: flex;
     border-radius: 0px 10px 10px 0px;
     border: none;
 }
+
+/* Time Line */
 .time-line {
     width: 100%;
-margin: auto;
-background-color: #343a40;
-    
+    margin: auto;
+    background-color: #343a40;
+    border-radius: 0px 40px 40px 0px;
     border-left: 5px solid #007bff;
 }
+
 .time-line .col {
     padding: 50px;
 }
+
 .ball-time-line {
     position: absolute;
     margin-left: -70px;
@@ -426,28 +442,33 @@ background-color: #343a40;
 .one {
     padding: 5px;
     background: #007bff;
-   
+
     border-radius: 100%;
 
 }
+
 .two {
     background-color: #17191a;
     padding: 10px;
     width: 10px;
     border-radius: 100%;
 }
+
 .time-line .title {
-font-size: 32px;
-color: #FFFFFFE6;
+    font-size: 32px;
+    color: #FFFFFFE6;
 }
+
 .time-line .year {
     color: #6c757d;
     font-size: 16px;
 }
+
 .time-line .text-timeline {
     font-size: 16px;
     color: #FFFFFFE6;
 }
+
 @media only screen and (max-width: 768px) {
     .skills_left {
         width: 100%;
@@ -456,16 +477,19 @@ color: #FFFFFFE6;
     .skills_right {
         width: 100% !important;
     }
+
     .display {
         height: 700px;
     }
+
     .time-line .col {
         padding: 20px;
     }
+
     .ball-time-line {
-        
+
         margin-left: -40px;
         margin-top: 10px;
-    
+
     }
 }
