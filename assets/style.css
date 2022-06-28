@@ -83,7 +83,10 @@ strong {
     --bs-bg-opacity: 1;
     background-color: none !important;
 }
-
+.nav-link {
+    display: block;
+    padding: 0.9rem 1rem;
+}
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
