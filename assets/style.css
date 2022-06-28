@@ -177,7 +177,7 @@ strong {
 }
 
 
-/* Blog */
+/* Articles */
 .articles .text-articles .title h1 {
     color: white;
     font-weight: 900;
@@ -192,7 +192,7 @@ strong {
 }
 
 .text-articles {
-    width: 98%;
+    width: 80%;
     margin: auto;
 }
 
