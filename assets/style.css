@@ -62,6 +62,8 @@ strong {
     text-align: center;
     color: #6c757d !important;
     font-size: 13px;
+    width: 50%;
+    margin: auto;
 }
 
 .credits strong {
@@ -690,7 +692,9 @@ hr {
   .demo-btn:hover {
     background: rgba(0, 0, 0, 0.12);
   }
-  
+  .galerry_w {
+
+  }
   @media (max-width: 640px) {
     .demo-btn {
       min-width: 0;
