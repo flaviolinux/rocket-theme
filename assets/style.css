@@ -203,6 +203,11 @@ strong {
     color: white;
     font-weight: 900;
 }
+.articles h2 {
+    font-size: 30px;
+    color: #FFFFFFE6;
+    font-weight: 700;
+}
 
 .articles .text-articles p {
     color: white;
