@@ -513,15 +513,15 @@ hr {
 .row {
     margin: 0px;
   }
-
+  .modal-body {
+        
+    padding: 0;
+}
 
 @media only screen and (max-width: 768px) {
     .img-fluid {
         
         margin: 0px 0px 25px 0px 0px;
     }
-    .modal-body {
-        
-        padding: 0;
-    }
+    
 }
