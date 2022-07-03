@@ -517,11 +517,12 @@ hr {
         
     padding: 0;
 }
-
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 10px 0px;
+}
 @media only screen and (max-width: 768px) {
-    .img-fluid {
-        
-        margin: 0px 0px 25px 0px 0px;
-    }
+    
     
 }
