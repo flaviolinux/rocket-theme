@@ -515,7 +515,7 @@ hr {
   }
   .modal-body {
         
-    padding: 0;
+    padding: 0px!important;
 }
 .img-fluid {
     max-width: 100%;
@@ -524,5 +524,12 @@ hr {
 }
 @media only screen and (max-width: 768px) {
     
-    
+    .ekko-lightbox {
+        background: repeating-linear-gradient(45deg, #b70ce5, #dc3545 100px)!important;
+    }
+   
+    .col-md-4 {
+        width: 90%;
+        margin: auto;
+    }
 }
