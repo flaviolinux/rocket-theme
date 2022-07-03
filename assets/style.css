@@ -525,7 +525,7 @@ hr {
 @media only screen and (max-width: 768px) {
     
     .ekko-lightbox {
-        background: repeating-linear-gradient(45deg, #b70ce5, #dc3545 100px)!important;
+        background: chartreuse;;
     }
    
     .col-md-4 {
