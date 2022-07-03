@@ -570,3 +570,9 @@ hr {
     top: 0 !important;
     transition-delay: 50ms;
   }
+
+  @media only screen and (max-width: 768px) {
+    .img-c {
+        width: 100%;
+    }
+}
