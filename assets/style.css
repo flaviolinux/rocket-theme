@@ -511,5 +511,14 @@ hr {
 /* Gallery */
 
 .row {
-    margin: 15px;
+    margin: 0px;
   }
+
+
+@media only screen and (max-width: 768px) {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin: 0px 0px 25px 0px 0px;
+    }
+}
