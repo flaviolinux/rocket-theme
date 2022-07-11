@@ -134,28 +134,23 @@ strong {
     justify-content: center;
 }
 .floatman .pic {
-    max-width: 230px;
+    width: 100%;
 }
 .centerman .pic {
     width: 100%;
 }
-.floatman .picenter {
-    max-width: 330px;
-}
+
 
 .floatman {
     background: yellow;
-    width: 30%;
+    width: 25%;
     margin: 15px;
 
-}
-.centerman {
-    width: 30%;
 }
 
 .centerman {
     background: palevioletred;
-    max-width: 300px;
+    width: 30%;
 }
 .floatman .text h1 {
     color: #FFFFFFE6;
@@ -172,6 +167,56 @@ strong {
 .centerman .text p {
     font-size: 16px;
     color: #FFFFFFE6;
+}
+.btn {
+    background: red!important;
+}
+.floatman:hover {
+    opacity: 80%;
+    text-decoration: none;
+}
+.centerman:hover {
+    opacity: 80%;
+    text-decoration: none;
+}
+.floatman a {
+    font-size: 12px;
+    color: wheat;
+}
+.floatman a:hover {
+    text-decoration: none;
+    color: wheat;
+}
+.centerman a {
+    font-size: 12px;
+    color: wheat;
+}
+.centerman a:hover {
+    text-decoration: none;
+    color: wheat;
+    
+}
+.hashtag .bnt {
+    border: 1px solid;
+    background: transparent;
+    color: #007bff;
+    border-radius: 10px;
+    padding: 0px 10px 2px 12px;
+    margin: 3px;
+    border-color: #007bff !important;
+}
+@media only screen and (max-width: 576px) {
+    .blog {
+        display: inline-block;
+        justify-content: center;
+    }
+    .floatman {
+        width: 90%;
+    }
+    .centerman {
+        width: 90%;
+        margin: auto;
+    }
 }
 /* Articles */
 .articles .text-articles .title h1 {
