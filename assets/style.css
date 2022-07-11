@@ -142,14 +142,16 @@ strong {
 
 
 .floatman {
-    background: yellow;
+    background: #242526;
     width: 25%;
     margin: 15px;
+    
+    border-radius: 20px 20px 20px 20px;
 
 }
 
 .centerman {
-    background: palevioletred;
+    background: #242526;;
     width: 30%;
 }
 .floatman .text h1 {
@@ -204,6 +206,14 @@ strong {
     padding: 0px 10px 2px 12px;
     margin: 3px;
     border-color: #007bff !important;
+}
+.floatman .text {
+    width: 90%;
+    margin: auto;
+}
+.centerman .text {
+    width: 90%;
+    margin: auto;
 }
 @media only screen and (max-width: 576px) {
     .blog {
