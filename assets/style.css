@@ -222,19 +222,19 @@ strong {
     margin: auto;
     padding: 10px;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
     .blog {
         display: inline-block;
         justify-content: center;
     }
     .floatman {
         width: 90%;
-        height: 500px;
+        height: auto!important;
     }
     .centerman {
         width: 90%;
 
-        height: 500px;
+        height: auto!important;
         margin: auto;
     }
 }
