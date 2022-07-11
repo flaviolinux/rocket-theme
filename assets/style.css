@@ -135,9 +135,11 @@ strong {
 }
 .floatman .pic {
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 .centerman .pic {
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 
@@ -154,6 +156,7 @@ strong {
 .centerman {
     background: #242526;;
     width: 30%;
+    border-radius: 20px 20px 20px 20px;
 }
 .floatman .text h1 {
     color: #FFFFFFE6;
