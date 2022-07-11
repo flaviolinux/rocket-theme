@@ -129,16 +129,50 @@ strong {
 
 
 /* Blog */
+.blog {
+    display: inline-flex;
+    justify-content: center;
+}
 .floatman .pic {
     max-width: 230px;
 }
 .centerman .pic {
-    max-width: 320px;
+    width: 100%;
 }
 .floatman .picenter {
     max-width: 330px;
 }
-floatman text
+
+.floatman {
+    background: yellow;
+    width: 30%;
+    margin: 15px;
+
+}
+.centerman {
+    width: 30%;
+}
+
+.centerman {
+    background: palevioletred;
+    max-width: 300px;
+}
+.floatman .text h1 {
+    color: #FFFFFFE6;
+    font-size: 20px;
+}
+.floatman .text p {
+    font-size: 16px;
+    color: #FFFFFFE6;
+}
+.centerman .text h1 {
+    color: #FFFFFFE6;
+    font-size: 20px;
+}
+.centerman .text p {
+    font-size: 16px;
+    color: #FFFFFFE6;
+}
 /* Articles */
 .articles .text-articles .title h1 {
     color: white;
