@@ -229,9 +229,12 @@ strong {
     }
     .floatman {
         width: 90%;
+        height: 500px;
     }
     .centerman {
         width: 90%;
+
+        height: 500px;
         margin: auto;
     }
 }
