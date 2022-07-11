@@ -129,79 +129,16 @@ strong {
 
 
 /* Blog */
-.card {
-
-    background-color: #fff0 !important;
-    border: none !important;
+.floatman .pic {
+    max-width: 230px;
 }
-
-.contend {
-    width: 50%;
+.centerman .pic {
     max-width: 320px;
-    background: #242526;
-    text-align: center;
-    border: 1px slid;
-    border: none;
-    border-radius: 50px 50px 50px 50px;
-
 }
-
-.contend .text h1 {
-    color: #FFFFFFE6;
-    font-size: 20px;
-    letter-spacing: 2px;
+.floatman .picenter {
+    max-width: 330px;
 }
-
-.contend p {
-    font-size: 16px;
-    color: #FFFFFFE6;
-}
-
-.contend img {
-    width: 100%;
-    border-radius: 50px 50px 0px 0px;
-}
-
-.text {
-    padding: 15px;
-    text-align: left;
-}
-
-.text h1 {
-    font-size: 30px;
-}
-
-.contend a {
-    font-size: 12px;
-    color: wheat;
-}
-
-.contend a:hover {
-    text-decoration: none;
-    color: wheat;
-}
-
-.contend a>h1 {
-    font-size: 20px;
-    color: wheat;
-    color: wheat;
-}
-
-.contend:hover {
-    opacity: 80%;
-}
-
-.class-btn {
-    border: 1px solid;
-    background: transparent;
-    color: #007bff;
-    border-radius: 10px;
-    padding: 0px 10px 2px 12px;
-    margin: 3px;
-    border-color: #007bff !important;
-}
-
-
+floatman text
 /* Articles */
 .articles .text-articles .title h1 {
     color: white;
