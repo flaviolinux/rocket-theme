@@ -130,8 +130,8 @@ strong {
 
 /* Blog */
 .blog {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .floatman .pic {
     width: 100%;
@@ -145,8 +145,7 @@ strong {
 
 .floatman {
     background: #242526;
-    width: 25%;
-        height: 500px;
+    max-width: 300px;
     margin: 15px;
     
     border-radius: 20px 20px 20px 20px;
@@ -155,8 +154,7 @@ strong {
 
 .centerman {
     background: #242526;;
-    width: 30%;
-    height: 600px;
+    max-width: 300px;
     border-radius: 20px 20px 20px 20px;
 }
 .floatman .text h1 {
@@ -213,31 +211,16 @@ strong {
     border-color: #007bff !important;
 }
 .floatman .text {
-    width: 90%;
+    
     margin: auto;
     padding: 10px;
 }
 .centerman .text {
-    width: 90%;
+    
     margin: auto;
     padding: 10px;
 }
-@media only screen and (max-width: 768px) {
-    .blog {
-        display: inline-block;
-        justify-content: center;
-    }
-    .floatman {
-        width: 90%;
-        height: auto!important;
-    }
-    .centerman {
-        width: 90%;
 
-        height: auto!important;
-        margin: auto;
-    }
-}
 /* Articles */
 .articles .text-articles .title h1 {
     color: white;
