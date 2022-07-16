@@ -555,7 +555,7 @@ hr {
     font-weight: 900;
 }
 .text-articles h2 {
-font-size: 16px;
+font-size: 20px;
 font-weight: 100;
 }
 .text-articles strong {
@@ -573,4 +573,9 @@ font-weight: 100;
 }
 .text-articles h3 {
     color: #7c12f9;
+}
+.text-articles h5 {
+    color: beige;
+    border-left: 2px solid #bac;
+    padding: 10px;
 }
