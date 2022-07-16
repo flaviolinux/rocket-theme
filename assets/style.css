@@ -222,24 +222,28 @@ strong {
     margin: auto;
     padding: 10px;
 }
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 459px) {
     .floatman {
-      
+        max-width: 363px!important;
+    }
+    .centerman {
+        max-width: 363px!important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .floatman {
         max-width: 200px;
     }
     .centerman {
         max-width: 200px;
     }
 }
-@media only screen and (max-width: 459px) {
-    
+@media only screen and (max-width: 1024px) {
     .floatman {
-      
-        max-width: 400px;
+        max-width: 200px;
     }
     .centerman {
-        max-width: 400px;
+        max-width: 200px;
     }
 }
 /* Articles */
