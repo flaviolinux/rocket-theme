@@ -132,6 +132,7 @@ strong {
 .blog {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .floatman .pic {
     width: 100%;
@@ -220,7 +221,26 @@ strong {
     margin: auto;
     padding: 10px;
 }
-
+@media only screen and (max-width: 768px) {
+    
+    .floatman {
+      
+        max-width: 200px;
+    }
+    .centerman {
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 459px) {
+    
+    .floatman {
+      
+        max-width: 400px;
+    }
+    .centerman {
+        max-width: 400px;
+    }
+}
 /* Articles */
 .articles .text-articles .title h1 {
     color: white;
