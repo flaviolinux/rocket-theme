@@ -147,7 +147,7 @@ strong {
 
 .floatman {
     background: #242526;
-    max-width: 300px;
+    width: 25%;
     margin: 15px;
     
     border-radius: 20px 20px 20px 20px;
@@ -156,7 +156,7 @@ strong {
 
 .centerman {
     background: #242526;;
-    max-width: 300px;
+    width: 25%;
     border-radius: 20px 20px 20px 20px;
 }
 .floatman .text h1 {
@@ -222,21 +222,12 @@ strong {
     margin: auto;
     padding: 10px;
 }
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 576px) {
     .floatman {
-        max-width: 363px!important;
+        width: 90%;
     }
     .centerman {
-        max-width: 363px!important;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .floatman {
-        max-width: 125px;
-    }
-    .centerman {
-        max-width: 125px;
+        width: 90%;
     }
 }
 /* Articles */
