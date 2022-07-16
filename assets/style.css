@@ -222,7 +222,7 @@ strong {
     margin: auto;
     padding: 10px;
 }
-@media only screen and (max-width: 459px) {
+@media only screen and (max-width: 464px) {
     .floatman {
         max-width: 363px!important;
     }
@@ -230,20 +230,13 @@ strong {
         max-width: 363px!important;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .floatman {
-        max-width: 200px;
+        max-width: 125px;
     }
     .centerman {
-        max-width: 200px;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .floatman {
-        max-width: 200px;
-    }
-    .centerman {
-        max-width: 200px;
+        max-width: 125px;
     }
 }
 /* Articles */
