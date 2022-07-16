@@ -573,9 +573,15 @@ font-weight: 100;
 }
 .text-articles h3 {
     color: #7c12f9;
+    font-weight: 900;
 }
 .text-articles h5 {
     color: beige;
     border-left: 2px solid #bac;
     padding: 10px;
+}
+.droptop img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
 }
