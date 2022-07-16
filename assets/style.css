@@ -132,6 +132,7 @@ strong {
 .blog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 .floatman .pic {
