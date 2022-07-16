@@ -233,9 +233,6 @@ strong {
     font-weight: 700;
 }
 
-.articles .text-articles p {
-    color: white;
-}
 
 .articles img {
     width: 100%;
@@ -251,8 +248,9 @@ strong {
 }
 
 .date-post {
-    font-size: 20px;
-    color: wheat;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 900;
 }
 
 
@@ -565,7 +563,7 @@ font-weight: 100;
 }
 .text-articles p {
     font-size: 30px;
-   
+    color: white;
 }
 .vikins {
     max-width: 500px;
@@ -584,4 +582,26 @@ font-weight: 100;
     max-width: 200px;
     margin: auto;
     display: block;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .droptop img {
+        max-width: 100px;
+    }
+    .text-articles h1 {
+        font-size: 20px;
+    }
+    .text-articles h2 {
+        font-size: 16px;
+    }
+    .text-articles p {
+        font-size: 20px;
+        color: white;
+    }
+    .text-articles h5 {
+        font-size: 16px;
+    }
+    
 }
