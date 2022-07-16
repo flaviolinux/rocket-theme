@@ -255,13 +255,7 @@ strong {
     color: wheat;
 }
 
-.date-post>strong {
 
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 2px;
-}
 
 hr {
     border-top: 1px solid #545b62 !important;
@@ -551,4 +545,32 @@ hr {
         width: 90%;
         margin: auto;
     }
+}
+
+
+/* ARTICLES ONE */
+.text-articles h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+.text-articles h2 {
+font-size: 16px;
+font-weight: 100;
+}
+.text-articles strong {
+    font-size: 50px;
+    font-weight: 100;
+    color: #dc3545;
+}
+.text-articles p {
+    font-size: 30px;
+   
+}
+.vikins {
+    max-width: 500px;
+    margin: auto;
+}
+.text-articles h3 {
+    color: #7c12f9;
 }
