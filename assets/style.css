@@ -133,12 +133,14 @@ strong {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
+
 .floatman .pic {
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
+
 .centerman .pic {
     width: 100%;
     border-radius: 20px 20px 0px 0px;
@@ -149,60 +151,73 @@ strong {
     background: #242526;
     width: 25%;
     margin: 15px;
-    
+
     border-radius: 20px 20px 20px 20px;
 
 }
 
 .centerman {
-    background: #242526;;
+    background: #242526;
+    ;
     width: 30%;
     border-radius: 20px 20px 20px 20px;
 }
+
 .floatman .text h1 {
     color: #FFFFFFE6;
     font-size: 19px;
 }
+
 .floatman .text p {
     font-size: 16px;
     color: #FFFFFFE6;
 }
+
 .centerman .text h1 {
     color: #FFFFFFE6;
     font-size: 20px;
 }
+
 .centerman .text p {
     font-size: 16px;
     color: #FFFFFFE6;
 }
+
 .btn {
-    background: red!important;
+    background: red !important;
 }
+
 .floatman:hover {
     opacity: 80%;
     text-decoration: none;
 }
+
 .centerman:hover {
     opacity: 80%;
     text-decoration: none;
 }
+
 .floatman a {
     font-size: 12px;
     color: wheat;
 }
+
 .floatman a:hover {
     text-decoration: none;
     color: wheat;
 }
+
 .centerman a {
     font-size: 12px;
     color: wheat;
 }
+
 .centerman a:hover {
     text-decoration: none;
     color: wheat;
-    
+
 }
+
 .hashtag .bnt {
     border: 1px solid;
     background: transparent;
@@ -213,24 +228,29 @@ strong {
     border-color: #007bff !important;
     font-size: 10px;
 }
+
 .floatman .text {
-    
+
     margin: auto;
     padding: 10px;
 }
+
 .centerman .text {
-    
+
     margin: auto;
     padding: 10px;
 }
+
 @media only screen and (max-width: 576px) {
     .floatman {
         width: 90%;
     }
+
     .centerman {
         width: 90%;
     }
 }
+
 /* Articles */
 .articles .text-articles .title h1 {
     color: white;
@@ -533,22 +553,26 @@ hr {
 
 .row {
     margin: 0px;
-  }
-  .modal-body {
-        
-    padding: 0px!important;
 }
+
+.modal-body {
+
+    padding: 0px !important;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
     margin: 0px 0px 10px 0px;
 }
+
 @media only screen and (max-width: 768px) {
-    
+
     .ekko-lightbox {
-        background: chartreuse;;
+        background: chartreuse;
+        ;
     }
-   
+
     .col-md-4 {
         width: 90%;
         margin: auto;
@@ -562,32 +586,39 @@ hr {
     color: white;
     font-weight: 900;
 }
+
 .text-articles h2 {
-font-size: 20px;
-font-weight: 100;
+    font-size: 20px;
+    font-weight: 100;
 }
+
 .text-articles strong {
     font-size: 50px;
     font-weight: 100;
     color: #dc3545;
 }
+
 .text-articles p {
     font-size: 30px;
     color: white;
 }
+
 .vikins {
     max-width: 500px;
     margin: auto;
 }
+
 .text-articles h3 {
     color: #7c12f9;
     font-weight: 900;
 }
+
 .text-articles h5 {
     color: beige;
     border-left: 2px solid #bac;
     padding: 10px;
 }
+
 .droptop img {
     max-width: 200px;
     margin: auto;
@@ -596,22 +627,39 @@ font-weight: 100;
 
 
 @media only screen and (max-width: 768px) {
-    
+
     .droptop img {
         max-width: 100px;
     }
+
     .text-articles h1 {
         font-size: 20px;
     }
+
     .text-articles h2 {
         font-size: 16px;
     }
+
     .text-articles p {
         font-size: 20px;
         color: white;
     }
+
     .text-articles h5 {
         font-size: 16px;
     }
-    
+
+}
+
+/* Article 03 */
+.walk strong {
+ font-size: 26px;
+ text-decoration: none;
+ color: green;
+}
+.walk h3 {
+    font-size: 26px;
+}
+.walk h4 {
+    color: #FFFFFFE6;
 }
