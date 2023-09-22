@@ -15,6 +15,7 @@ body {
 
 .navbar-brand h5>b>i {
     font-size: 60px;
+    color: bisque;
 }
 
 .navbar-brand h5>b>i:hover {
@@ -51,7 +52,8 @@ body {
 
 .main p {
     text-align: center;
-    color: #6c757d !important;
+    /* color: #6c757d !important; */
+    color: burlywood;
 }
 
 strong {
