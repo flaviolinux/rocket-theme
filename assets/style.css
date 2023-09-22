@@ -6,12 +6,9 @@ body {
     width: 100%;
     margin: auto;
     font-family: 'Poppins' !important;
-    /* background-color: #17191a !important; */
-        background-color: #643720!important;
+    background-color: #643720!important;
     width: 100%;
 }
-
-.gradient {}
 
 .navbar-brand h5>b>i {
     font-size: 60px;
