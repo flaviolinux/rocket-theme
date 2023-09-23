@@ -6,8 +6,9 @@ body {
     width: 100%;
     margin: auto;
     font-family: 'Poppins' !important;
-    background-color: #643720!important;
     width: 100%;
+    background-color: #643720!important;
+    background: url("../assets/star-bg.svg");
 }
 
 .navbar-brand h5>b>i {
