@@ -7,8 +7,10 @@ body {
     margin: auto;
     font-family: 'Poppins' !important;
     width: 100%;
-    background-color: #643720!important;
-    background: url("../assets/star-bg.svg");
+    background-color: #24292e!important;
+    background: url("../assets/star-bg.svg"),linear-gradient(#191c20, #24292e 15%);;
+    background-position: center 0, 0 0, 0 0;
+    background-repeat: repeat-x;
 }
 
 .navbar-brand h5>b>i {
