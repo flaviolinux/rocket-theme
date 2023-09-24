@@ -13,6 +13,35 @@ body {
     background-repeat: repeat-x;
 }
 
+.link-after,
+.nav-link::after,
+.navbar-brand::after,
+.nav-item.active::after {
+    content: "";
+    display: block;
+    height: 0.15em;
+    background: #007bff
+}
+
+.nav-link::after,
+.navbar-brand::after {
+    width: 0;
+    transition: width 0.35s
+}
+
+.nav-link:hover::after,
+.navbar-brand:hover::after {
+    width: 100%
+}
+
+.nav-item.active {
+    font-weight: bold
+}
+
+.nav-item.active::after {
+    width: 100% !important
+}
+
 .navbar-brand h5>b>i {
     font-size: 60px;
     color: bisque;
