@@ -16,11 +16,13 @@ body {
 .navbar-brand h5>b>i {
     font-size: 60px;
     color: bisque;
+    
+    text-shadow: 0px 0px 8px #f8f9fa;
 }
 
 .navbar-brand h5>b>i:hover {
 
-    text-shadow: 0px 0px 8px #f8f9fa;
+    text-shadow: none;
 }
 
 .active::after {
