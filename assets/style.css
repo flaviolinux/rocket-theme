@@ -20,7 +20,7 @@ body {
     content: "";
     display: block;
     height: 0.15em;
-    background: #007bff
+    background: #ffffff
 }
 
 .nav-link::after,
@@ -57,7 +57,7 @@ body {
     content: "";
     display: block;
     height: 0.15em;
-    background: #007bff;
+    background: #ffffff;
 }
 
 .container {
