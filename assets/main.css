@@ -84,24 +84,43 @@ body {
 }
 
 /* Newspaper & Donuts */
-.coffe_card {
-    border: 1px solid;
-    border-radius: 20px;
+.padding {
     padding: 10px;
 }
-
-.coffe_card img {
- max-width: 300px;
- border-radius: 20px;
+.cute_card {
+    max-width: 300px;
+   
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #343a40;
 }
-
-.coffe_card a:hover {
-    text-decoration: none;
-    opacity: 20%;
+.newspaper_link img {
+    max-width: 300px;
+    border-radius: 20px 20px 0px 0px;
 }
-.coffe_card h1 {
+.newspaper_link h1{
  font-size: 20px;
+ 
+ color: #343a40;
 }
-.coffe_card p {
-    font-size: 16px;
+.newspaper_link h2 {
+font-size: 16px;
+
+color: #343a40;
+}
+
+.newspaper_link:hover {
+    opacity: 90%;
+    text-decoration: none;
+}
+.tags p {
+    display: inline-block;
+    margin: 3px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.tags {
+    padding: 0px;
 }
