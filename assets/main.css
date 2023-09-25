@@ -6,7 +6,7 @@ body {
     margin: auto;
     font-family: 'Poppins' !important;
     width: 100%;
-    background-color: #ffffff!important;
+    background-color: #ffffff !important;
     background: url("../assets/mode-rockstar.png");
     background-position: center 0, 0 0, 0 0;
     background-repeat: repeat-x;
@@ -25,7 +25,7 @@ body {
 
 /* NAV */
 .navbar-themed .navbar-nav .nav-link {
-    color: black!important;
+    color: black !important;
 }
 
 .nav-link::after,
@@ -64,13 +64,15 @@ body {
     max-width: 500px;
     margin: auto;
 }
+
 .main .features {
- text-align: center;
+    text-align: center;
 }
+
 .main .features a {
- font-size: 20px;
- color: black;
- margin: 10px;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
 }
 
 /* By */
