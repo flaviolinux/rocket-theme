@@ -74,7 +74,10 @@ body {
     color: black;
     margin: 10px;
 }
-
+.main .features a:hover {
+    color: #FF7709;
+    
+}
 /* By */
 .main .coffe {
     text-align: center;
