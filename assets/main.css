@@ -82,3 +82,26 @@ body {
 .main .coffe {
     text-align: center;
 }
+
+/* Newspaper & Donuts */
+.coffe_card {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.coffe_card img {
+ max-width: 300px;
+ border-radius: 20px;
+}
+
+.coffe_card a:hover {
+    text-decoration: none;
+    opacity: 20%;
+}
+.coffe_card h1 {
+ font-size: 20px;
+}
+.coffe_card p {
+    font-size: 16px;
+}
