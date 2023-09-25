@@ -11,7 +11,8 @@ body {
     background-position: center 0, 0 0, 0 0;
     background-repeat: repeat-x;
 }
-/* Home CSS */
+
+/* Initial CSS */
 
 .container {
     width: 90%;
@@ -23,39 +24,8 @@ body {
 }
 
 /* NAV */
-.navbar-brand {
-    padding-top: var(--bs-navbar-brand-padding-y);
-    padding-bottom: var(--bs-navbar-brand-padding-y);
-    margin-right: var(--bs-navbar-brand-margin-end);
-    font-size: var(--bs-navbar-brand-font-size);
-    color: rgba(0, 0, 0, 0.9) !important;
-    text-decoration: none;
-    white-space: nowrap;
-    font-weight: bolder;
-}
-
-.main p {
-    text-align: center;
-    /* color: #6c757d !important; */
-    color: burlywood;
-}
-
-strong {
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-.footer {
-    text-align: center;
-}
-.link-after,
-.nav-link::after,
-.navbar-brand::after,
-.nav-item.active::after {
-    content: "";
-    display: block;
-    height: 0.15em;
-    background: #1389e9
+.navbar-themed .navbar-nav .nav-link {
+    color: black!important;
 }
 
 .nav-link::after,
@@ -69,67 +39,17 @@ strong {
     width: 100%
 }
 
-.nav-item.active {
-    font-weight: bold
-}
-
+.link-after,
+.nav-link::after,
+.navbar-brand::after,
 .nav-item.active::after {
-    width: 100% !important
-}
-
-.navbar-brand h5>b>i {
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-}
-
-.navbar-brand h5>b>i:hover {
-
-    text-shadow: none;
-}
-
-.active::after {
     content: "";
     display: block;
     height: 0.15em;
-    background: #0f69f1;
+    background: #1389e9
 }
 
-.credits {
-    text-align: center;
-    color: #6c757d !important;
-    font-size: 13px;
-    width: 90%;
-    margin: auto;
-}
-
-.credits strong {
-    text-decoration: none;
-}
-
-.link a {
-    margin: 15px;
-    color: #6c757d;
-
-}
-
-.link a:hover {
-
-    color: wheat;
-}
-
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: none !important;
-}
-
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: rgb(8, 8, 8) !important;
-}
-
-.navbar-themed .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
-}
+/* Avatar */
 
 .main img {
     display: block;
