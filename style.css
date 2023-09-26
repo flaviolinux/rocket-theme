@@ -527,7 +527,7 @@ body {
 .markdown-body table:not(.highlight) tr:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.05)
 }
-
+/* BLOG */
 .project.card {
     border-radius: 15px;
     text-decoration: none !important;
