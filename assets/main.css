@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins' !important;
     width: 100%;
     background-color: #ffffff !important;
-    background: url("../assets/mode-rockstar_new.png"); 
+    /* background: url("../assets/mode-rockstar_new.png");  */
     background-position: center 0, 0 0, 0 0;
     background-repeat: repeat-x;
 }
@@ -86,31 +86,59 @@ body {
 }
 
 /* Newspaper & Donuts */
-.bakery h1 {
-    font-size: 20px;
-}
-.bakery h2 {
-    font-size: 10px;
-}
-.donuts 
-{width: 200px;
-    background: red;
-    display: inline-block;
-    margin: 10px;
+.bakery {
+
 }
 
-.donuts_chocolate {
-    width: 200px;
+.donuts {
+    border: 1px solid #00000038;
+    border-radius: 20px;
+    max-width: 300px;
+}
+.bakery .donuts h1 {
+    font-size: 20px;
+    color: black;
+}
+.bakery .donuts h2 {
+    font-size: 10px;
+    color: black;
+}
+.front {
+    padding: 20px;
+}
+.tag p {
+    font-size: 10px;
+}
+--
+
+.bakery .strawberry h1 {
+    font-size: 20px;
+    color: black;
+}
+.bakery .strawberry h2 {
+    font-size: 10px;
+    color: black;
+}
+
+.cherry {
     
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.cherry_img {
+    max-width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+.strawberry {
+    
+    max-width: 400px;
     height: 400px;
-    background: red;
-    display: inline-block;
-    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
-.donuts_cherry {
-    width: 200px;
-    height: 300px;
-    background: red;
-    display: inline-block;
-    margin: 10px;
+.strawberry img {
+    max-width: 300px;
+    border-radius: 20px 20px 0px 0px;
 }
+
