@@ -7,7 +7,9 @@ body {
     font-family: 'Poppins' !important;
     width: 100%;
     background-color: #ffffff !important;
-    
+    /* background: url("../assets/mode-rockstar_new.png");  */
+    background-position: center 0, 0 0, 0 0;
+    background-repeat: repeat-x;
 }
 
 /* Initial CSS */
