@@ -45,7 +45,22 @@ body {
     height: 0.15em;
     background: #02faa3;
 }
+.link-after,
+.nav-link::after,
+.navbar-brand::after,
+.nav-item.active::after {
+    content: "";
+    display: block;
+    height: 0.15em;
+    background: #02faa3;
+}
+.nav-item.active {
+    font-weight: bold
+}
 
+.nav-item.active::after {
+    width: 100% !important
+}
 /* Avatar */
 
 .main img {
