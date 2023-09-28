@@ -133,12 +133,15 @@ body {
 }
 .column_lef {
     width: 50%;
+    
 }
 .column_rig {
     width: 50%;
+    
 }
 .onion {
     display: flex;
+    width: 90%;
 }
 .loading_1 {
     width: 90%;
