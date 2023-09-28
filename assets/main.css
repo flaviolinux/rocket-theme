@@ -4,6 +4,7 @@ html,
 body {
     font-family: 'Poppins' !important;
     background-color: #ffffff !important;
+    margin: auto;
 }
 
 /* NAV */
@@ -209,4 +210,25 @@ body {
 .porcents {
     width: 50%;
     text-align: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .bakery {
+        display: block;
+    }
+    .onion {
+        width: 100%;
+    }
+    .column_rig {
+        width: 100%;
+    }
+    .column_lef {
+        width: 100%;
+    }
+    .names_features {
+        width: 100%;
+    }
+    .mode_rockstar {
+        font-size: 20px;
+    }
 }
