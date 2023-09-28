@@ -125,29 +125,29 @@ body {
 
 /* Mode Rockstar */
 
-.mode_rockstar h1 {
-
-}
 .bakery {
     display: flex;
 }
+
 .column_lef {
     width: 50%;
-    
 }
+
 .column_rig {
     width: 50%;
-    
 }
+
 .onion {
     display: flex;
     width: 90%;
 }
+
 .loading_1 {
     width: 90%;
     background: red;
     padding: 10px;
 }
+
 .loading_2 {
     padding: 10px;
     width: 10%;
