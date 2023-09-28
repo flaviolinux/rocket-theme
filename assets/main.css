@@ -153,8 +153,17 @@ body {
     width: 10%;
     background: black;
 }
-
+.time_line {
+    margin-bottom: 4rem;
+}
 /* Time Line */
+
+.mode_rockstar {
+    margin-bottom: 4rem;
+}
+.bakery {
+    margin-bottom: 6rem;
+}
 .time_line {
     display: flex;
 }
