@@ -193,57 +193,11 @@ body {
     background: black;
 }
 
-/* Time Line */
-
 .mode_rockstar {
     margin-bottom: 4rem;
 }
 .bakery {
     margin-bottom: 6rem;
-}
-.time_line {
-    display: flex;
-}
-
-.line {
-    width: 10px;
-    padding: 10px;
-    background: blue;
-}
-
-.div {
-    width: 50%;
-    padding: 10px;
-}
-
-.titles {
-    width: 50%;
-    border-bottom: 1px dashed #343a40;
-    background-color: #f8f9fa;
-    margin: 0px 15px;
-}
-
-.boll {
-    padding: 30px;
-    background-color: #007bff;
-    border-radius: 100%;
-    height: 10px;
-}
-
-.cblol {
-    background-color: #007bff;
-    padding: 8px;
-    width: 10px;
-    height: 250px;
-    margin: -1px auto;
-}
-
-.center {
-    background: white;
-    padding: 10px;
-    position: absolute;
-    margin: 20px;
-    border-radius: 20px;
 }
 
 .names_features {
