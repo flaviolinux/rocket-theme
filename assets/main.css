@@ -166,6 +166,7 @@ body {
 
 .bakery {
     display: flex;
+    margin-bottom: 6rem;
 }
 
 .column_lef {
@@ -195,9 +196,6 @@ body {
 
 .mode_rockstar {
     margin-bottom: 4rem;
-}
-.bakery {
-    margin-bottom: 6rem;
 }
 
 .names_features {
