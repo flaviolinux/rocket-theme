@@ -118,39 +118,8 @@ body {
     box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24)
 }
 
-/* Illustration */
-
-.row {
-    margin: 0px;
-}
-
-.modal-body {
-
-    padding: 0px !important;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    margin: 0px 0px 10px 0px;
-}
-
-@media only screen and (max-width: 768px) {
-
-    .ekko-lightbox {
-        background: chartreuse;
-        ;
-    }
-
-    .col-md-4 {
-        width: 90%;
-        margin: auto;
-    }
-}
-
 /* SKILLS PAGE CSS */
 
-/* Skills */
 .center {
     color: #FFFFFFE6;
 }
