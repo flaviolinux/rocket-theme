@@ -2,10 +2,7 @@
 
 html,
 body {
-    width: 100%;
-    margin: auto;
     font-family: 'Poppins' !important;
-    width: 100%;
     background-color: #ffffff !important;
 }
 
@@ -82,8 +79,8 @@ body {
 
 }
 
-
 /* Newspaper */
+
 .project.card {
     border-radius: 15px;
     text-decoration: none !important;
@@ -101,6 +98,7 @@ body {
 }
 
 /* Grab a Coffe */
+
 .card-body h5 {
 
     color: #343a40;
