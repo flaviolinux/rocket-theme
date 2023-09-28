@@ -153,9 +153,7 @@ body {
     width: 10%;
     background: black;
 }
-.time_line {
-    margin-bottom: 4rem;
-}
+
 /* Time Line */
 
 .mode_rockstar {
@@ -182,6 +180,7 @@ body {
 .titles {
     width: 50%;
     border-bottom: 1px dashed #343a40;
+    background-color: #f8f9fa;
     margin: 0px 15px;
 }
 
