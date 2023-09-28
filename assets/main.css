@@ -367,11 +367,11 @@ body {
 /* Grab a Coffe */
 .card-body h5 {
 
-    color: darkolivegreen;
+    color: #343a40;
     font-weight: normal;
 }
 .card-body p {
-    color: mediumorchid;
+    color: #343a40;
     font-weight: 100;
 }
 .cappuccino img {
