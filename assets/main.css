@@ -198,3 +198,17 @@ body {
     margin: 20px;
     border-radius: 20px;
 }
+
+.names_features {
+    display: flex;
+    width: 90%;
+}
+
+.software {
+    width: 50%;
+}
+
+.porcents {
+    width: 50%;
+    text-align: end;
+}
