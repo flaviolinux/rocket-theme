@@ -124,26 +124,41 @@ body {
 }
 
 /* Mode Rockstar */
-.timeline {
-    width: 90%;
-    height: 90px;
-    background: gray;
-    border-left: 10px solid black;
-}
 
-.center_white {
-    background: red;
+.john {
+    background: transparent;
+    width: 50%;
     padding: 10px;
-    height: 10px;
-    width: 10px;
+}
+.feel {
+    width: 50%;
+    background-color: #f8f9fa;
+    border-left: 10px solid var(--pink);
+    border-radius: 0 15px 15px 0;
+}
+.how {
+    display: flex;
+    margin-bottom: 3rem;
+}
+.drake {
+    width: 90%;
+    float: right;
+    border-bottom: 1px dashed #343a40;
+
+}
+.boll_circle {
+    background: green;
+    padding: 10px;
+    width: 0px;
+    margin: -14px;
     border-radius: 100%;
     position: absolute;
-    margin: -5px;
 }
-.center_red {
+.boll_center {
     padding: 5px;
     background: black;
     width: 10px;
     position: absolute;
-    margin: 0px;
+    margin: -9px;
+    border-radius: 100%;
 }
