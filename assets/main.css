@@ -128,6 +128,15 @@ body {
 .mode_rockstar h1 {
 
 }
+.bakery {
+    display: flex;
+}
+.column_lef {
+    width: 50%;
+}
+.column_rig {
+    width: 50%;
+}
 .onion {
     display: flex;
 }
