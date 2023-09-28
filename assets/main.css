@@ -123,7 +123,7 @@ body {
     font-weight: 100;
 }
 
-/* Mode Rockstar */
+/* TIME LINE */
 
 .john {
     width: 50%;
@@ -145,23 +145,24 @@ body {
 
 }
 .boll_circle {
-    background: green;
-    padding: 10px;
+    
+    background: black;
+    padding: 20px;
     width: 0px;
-    margin: -14px;
+    margin: -25px;
     border-radius: 100%;
     position: absolute;
 }
 .boll_center {
-    padding: 5px;
-    background: black;
+    padding: 10px;
+    background: white;
     width: 10px;
     position: absolute;
-    margin: -9px;
+    margin: -15px;
     border-radius: 100%;
 }
 
-/* SKILLS */
+/* MODE ROCKSTAR */
 
 .bakery {
     display: flex;
