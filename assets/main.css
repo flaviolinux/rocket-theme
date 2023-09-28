@@ -9,8 +9,6 @@ body {
     background-color: #ffffff !important;
 }
 
-
-
 /* NAV */
 .navbar-themed .navbar-nav .nav-link {
     color: black !important;
@@ -44,6 +42,7 @@ body {
 .nav-item.active::after {
     width: 100% !important
 }
+
 /* Avatar */
 
 .main img {
@@ -52,11 +51,13 @@ body {
     border-radius: 100%;
     width: 20%;
 }
+
 @media only screen and (max-width: 768px) {
     .main img {
-        width: 100%!important;
+        width: 100% !important;
     }
 }
+
 .main h1 {
     font-size: 20px;
     text-align: center;
@@ -318,16 +319,20 @@ body {
     color: #343a40;
     font-weight: normal;
 }
+
 .card-body p {
     color: #343a40;
     font-weight: 100;
 }
+
 .cappuccino img {
     width: 100%;
 }
+
 .card-body span {
     font-weight: 100;
 }
+
 .date {
     color: #8a2be2a1;
     font-weight: 100;
