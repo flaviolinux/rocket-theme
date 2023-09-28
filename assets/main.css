@@ -363,3 +363,20 @@ body {
 
     }
 }
+
+/* Grab a Coffe */
+.card-body h5 {
+
+    color: darkolivegreen;
+    font-weight: normal;
+}
+.card-body p {
+    color: mediumorchid;
+    font-weight: 100;
+}
+.cappuccino img {
+    width: 100%;
+}
+.card-body span {
+    font-weight: 100;
+}
