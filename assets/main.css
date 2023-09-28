@@ -172,7 +172,7 @@ body {
 }
 .titles {
     width: 50%;
-    
+    border-bottom: 1px dashed #343a40;
     margin: 0px 15px;
 }
 .boll {
@@ -187,7 +187,7 @@ body {
     padding: 8px;
     width: 10px;
     height: 100px;
-    margin: auto;
+    margin: -1px auto;
 }
 .center {
     background: white;
