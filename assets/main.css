@@ -5,6 +5,8 @@ body {
     font-family: 'Poppins' !important;
     background-color: #ffffff !important;
     margin: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* NAV */
@@ -163,6 +165,23 @@ body {
 }
 
 /* MODE ROCKSTAR */
+.feel h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.feel h2  {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.feel p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
 
 .bakery {
     display: flex;
@@ -230,5 +249,12 @@ body {
     }
     .mode_rockstar {
         font-size: 20px;
+    }
+    .john {
+        width: 10%;
+    }
+    .feel {
+        width: 90%;
+
     }
 }
