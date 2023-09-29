@@ -186,6 +186,7 @@ body {
 .bakery {
     display: flex;
     margin-bottom: 6rem;
+
 }
 
 .column_lef {
@@ -217,6 +218,7 @@ body {
 
 .mode_rockstar {
     margin-bottom: 4rem;
+    
 }
 
 .names_features {
@@ -232,8 +234,14 @@ body {
     width: 50%;
     text-align: end;
 }
-
+.docker {
+    width: 80%;
+    margin: auto;
+}
 @media only screen and (max-width: 768px) {
+    .docker {
+        width: 100%;
+    }
     .bakery {
         display: block;
     }
