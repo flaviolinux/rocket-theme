@@ -251,9 +251,10 @@ body {
         font-size: 20px;
     }
     .john {
-        width: 10%;
+        width: 0%;
     }
     .feel {
+        margin: auto;
         width: 90%;
 
     }
