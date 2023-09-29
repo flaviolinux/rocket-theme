@@ -10,6 +10,9 @@ body {
 }
 
 /* NAV */
+.navbar {
+    padding: 2.5rem 1rem!important;
+}
 .navbar-themed .navbar-nav .nav-link {
     color: black !important;
 }
