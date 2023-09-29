@@ -11,7 +11,7 @@ body {
 
 /* NAV */
 .navbar {
-    padding: 2.5rem 1rem!important;
+    padding: 2.5rem 1rem !important;
 }
 
 .navbar-themed .navbar-nav .nav-link {
@@ -132,22 +132,26 @@ body {
 .john {
     width: 50%;
 }
+
 .feel {
     width: 50%;
     background-color: #f8f9fa;
     border-left: 10px solid var(--pink);
     border-radius: 0 15px 15px 0;
 }
+
 .how {
     display: flex;
     margin-bottom: 3rem;
 }
+
 .drake {
     width: 90%;
     padding: 45px;
     border-bottom: 1px dashed #343a40;
 
 }
+
 .boll_circle {
     background: black;
     padding: 20px;
@@ -156,6 +160,7 @@ body {
     border-radius: 100%;
     position: absolute;
 }
+
 .boll_center {
     padding: 10px;
     background: white;
@@ -172,7 +177,8 @@ body {
     font-weight: 500;
     line-height: 1.2;
 }
-.feel h2  {
+
+.feel h2 {
     font-size: 1rem;
     color: #6c757d;
 }
@@ -233,41 +239,52 @@ body {
     width: 50%;
     text-align: end;
 }
+
 .docker {
     width: 80%;
     margin: auto;
 }
+
 @media only screen and (max-width: 768px) {
     .docker {
         width: 100%;
     }
+
     .bakery {
         display: block;
     }
+
     .onion {
         width: 100%;
     }
+
     .column_rig {
         width: 100%;
         margin-bottom: 4rem;
     }
+
     .column_lef {
         width: 100%;
         margin-bottom: 4rem;
     }
+
     .names_features {
         width: 100%;
     }
+
     .mode_rockstar {
         font-size: 20px;
     }
+
     .john {
         width: 0%;
     }
+
     .feel {
         margin: auto;
         width: 90%;
     }
+
     .drake {
         padding: 20px;
         margin: auto;
