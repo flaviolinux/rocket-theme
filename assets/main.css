@@ -145,7 +145,7 @@ body {
 }
 .drake {
     width: 90%;
-    float: right;
+    padding: 45px;
     border-bottom: 1px dashed #343a40;
 
 }
@@ -275,6 +275,5 @@ body {
     .drake {
         padding: 20px;
         margin: auto;
-        float: initial;
     }
 }
