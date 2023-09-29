@@ -240,9 +240,11 @@ body {
     }
     .column_rig {
         width: 100%;
+        margin-bottom: 4rem;
     }
     .column_lef {
         width: 100%;
+        margin-bottom: 4rem;
     }
     .names_features {
         width: 100%;
