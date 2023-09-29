@@ -260,4 +260,9 @@ body {
         width: 90%;
 
     }
+    .drake {
+        padding: 20px;
+        margin: auto;
+        float: initial;
+    }
 }
