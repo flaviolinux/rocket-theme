@@ -116,8 +116,23 @@ body {
 
 .cappuccino img {
     width: 100%;
+    margin-bottom: 3rem;
 }
-
+.cappuccino h1 {
+    margin-bottom: 3rem;
+    font-size: 40px;
+    color: #212529;
+    font-weight: bolder;
+}
+.cappuccino h2 {
+    font-weight: 500;
+    line-height: 1.2;
+    color: #212529;
+    font-size: 32px;
+}
+.cappuccino p {
+    margin-bottom: 3rem;
+}
 .card-body span {
     font-weight: 100;
 }
