@@ -135,17 +135,17 @@ body {
 
 .feel {
     width: 50%;
-    background-color: #f8f9fa;
+    
     border-left: 10px solid var(--pink);
-    border-radius: 0 15px 15px 0;
+    
 }
 
 .how {
     display: flex;
-    margin-bottom: 3rem;
 }
 
 .drake {
+    background-color: #f8f9fa;
     width: 90%;
     padding: 45px;
     border-bottom: 1px dashed #343a40;
