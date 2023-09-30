@@ -116,6 +116,9 @@ body {
 
 .cappuccino img {
     width: 100%;
+    
+}
+.cappuccino strong {
     margin-bottom: 3rem;
 }
 .cappuccino h1 {
@@ -140,6 +143,7 @@ body {
 .date {
     color: #8a2be2a1;
     font-weight: 100;
+    margin-bottom: 2rem;
 }
 
 /* TIME LINE */
