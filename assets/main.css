@@ -8,7 +8,10 @@ body {
     width: 100%;
     height: auto;
 }
-
+.poppins {
+    text-align: center;
+    font-weight: bolder;
+}
 /* NAV */
 .navbar {
     padding: 2.5rem 1rem !important;
