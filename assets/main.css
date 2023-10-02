@@ -114,6 +114,8 @@ body {
     font-weight: 100;
 }
 .cappuccino {
+    max-width: 900px;
+    margin: auto;
     margin-bottom: 300px;
 }
 .cappuccino img {
