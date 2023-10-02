@@ -116,9 +116,9 @@ body {
 .cappuccino {
     max-width: 900px;
     margin: auto;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
 }
-.cappuccino img {
+.express {
     width: 100%;
     
 }
@@ -149,7 +149,11 @@ body {
     font-weight: 100;
     margin-bottom: 2rem;
 }
-
+.illustrator_coffe {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+}
 /* TIME LINE */
 
 .john {
